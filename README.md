@@ -48,3 +48,5 @@ Below are the key visual insights generated from the dataset:
 ### 1. Price Distribution
 ![Price Distribution](Price_Distribution.png)
 *This chart shows the concentration of sales prices and identifies outliers.*
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hadi02-gif/sales-data-analysis/blob/main/analysis.ipynb)
