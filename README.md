@@ -35,16 +35,11 @@ print(f"Max Value: {df['Price'].max()}")
 print(df.describe())
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 # 1. Load Data
 df = pd.read_csv('sales.csv')
 
 # --- VISUALIZATION 1: Price Distribution (Histogram) ---
-plt.figure(figsize=(10, 6))
-sns.histplot(df['Price'], kde=True, color='skyblue')
-plt.title('Distribution of Sales Prices')
-plt.xlabel('Price ($)')
-plt.ylabel('Frequency')
-plt.savefig('price_distribution.png') # Saves the image for GitHub
+df['Price Each'].plot(kind='hist', bins=20, title='Price Distribution')
 plt.show()
+
