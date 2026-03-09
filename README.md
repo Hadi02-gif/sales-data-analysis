@@ -19,3 +19,17 @@ This project performs a basic exploratory data analysis (EDA) on a sales dataset
 1. Clone this repo: `git clone https://github.com/YOUR_USERNAME/sales-data-analysis.git`
 2. Ensure you have `pandas` installed: `pip install pandas`
 3. Open `analysis.ipynb` in Jupyter or VS Code.
+import pandas as pd
+
+# Load the data
+df = pd.read_csv('sales.csv')
+
+# 1. Count rows
+print(f"Total Rows: {len(df)}")
+
+# 2. Find min/max (assuming a column named 'Price')
+print(f"Min Value: {df['Price'].min()}")
+print(f"Max Value: {df['Price'].max()}")
+
+# 3. Print simple summaries
+print(df.describe())
