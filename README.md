@@ -42,4 +42,9 @@ df = pd.read_csv('sales.csv')
 # --- VISUALIZATION 1: Price Distribution (Histogram) ---
 df['Price Each'].plot(kind='hist', bins=20, title='Price Distribution')
 plt.show()
+## 📊 Data Visualizations
+Below are the key visual insights generated from the dataset:
 
+### 1. Price Distribution
+![Price Distribution](price_distribution.png)
+*This chart shows the concentration of sales prices and identifies outliers.*
