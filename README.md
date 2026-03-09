@@ -46,5 +46,5 @@ plt.show()
 Below are the key visual insights generated from the dataset:
 
 ### 1. Price Distribution
-![Price Distribution](price_distribution.png)
+![Price Distribution](Price_Distribution.png)
 *This chart shows the concentration of sales prices and identifies outliers.*
